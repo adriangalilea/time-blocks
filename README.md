@@ -9,10 +9,12 @@
 Grouped in quarters to visually differenciate.
 Might use distinguishing features(color/size/physical separation) to visually understand what is the hours column and what is the minutes one.
 
-# What options do exist to keep track of time?
+# ⌛ What options do exist to keep track of time?
 I've always been mesmerized by Hourglasses, there's no better time representation than that, you understand it the first time you see it... but can is it precise enough to be practical? I don't think so.
 
-Another fun observation is jail day counting, I can not even find documentation on it, it's just so intuitive that is taken for granted. I had no luck in Google or ChatGPT, like... why does this not have a name if it's so ubiquitous.
+Another fun observation is jail day counting, I had no luck in Google or ChatGPT, like... why does this not have a name if it's so ubiquitous.
+![jail_day_counting](https://github.com/adriangalilea/time-blocks/assets/90320947/77003274-e8c3-4afa-aa77-1b4cd8be4eda)
+
 
 Then there's the analog watch/clock abstraction, that takes quite a while to read "intuitively", but once you learn it's very precise.
 

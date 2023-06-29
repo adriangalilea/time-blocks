@@ -74,9 +74,9 @@ const GridQuarter: React.FC<GridQuarterProps> = ({ currentTime, isHour, quarter 
   for (let i = 0; i < 3; i++) {
     let isHighlighted;
     if (isHour) {
-      isHighlighted = (currentTime.getHours() % 12) >= i + quarter * 3;
+      isHighlighted = (currentTime.getHours() % 12) > i + quarter * 3;
     } else {
-      isHighlighted = Math.floor(currentTime.getMinutes() / 5) >= i + quarter * 3;
+      isHighlighted = Math.floor(currentTime.getMinutes() / 5) > i + quarter * 3;
     }
 
     const isStart = quarter === 0 && i === 0;
@@ -101,6 +101,7 @@ const GridQuarter: React.FC<GridQuarterProps> = ({ currentTime, isHour, quarter 
     </div>
   )
 }
+
 
 interface GridColumnProps {
   currentTime: Date;

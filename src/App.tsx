@@ -54,7 +54,7 @@ const TimeBlock: React.FC<TimeBlockProps & { delay: number }> = ({
       height: '100%',
       width: '100%',
       flexGrow: 1,
-      borderRadius: isStart ? '80px 0 0 80px' : isEnd ? '0 80px 80px 0' : '0',
+      borderRadius: '20px 20px 20px 20px',
     }}
   />
 );

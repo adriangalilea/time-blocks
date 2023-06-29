@@ -1,7 +1,15 @@
 import React, { useState, useEffect } from 'react'
 import { Grid, Box, Flex, GridItem } from '@chakra-ui/react'
 import { motion } from "framer-motion"
+import './App.css'
+import { css, keyframes } from '@emotion/react';
 
+// Create the keyframes
+const gradient = keyframes`
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+`;
 
 interface TimeBlockProps {
   isHighlighted: boolean;
@@ -35,18 +43,22 @@ const TimeBlock: React.FC<TimeBlockProps & { delay: number }> = ({
   delay,
 }) => (
   <motion.div
-    initial={{ background: '#1A1B2D' }}
-    animate={{ background: isHighlighted ? '#E5F901' : '#1A1B2D' }}
+    initial={{ background: '#1A1B2D', boxShadow: 'none', border: '1px solid grey' }}
+    animate={{ 
+      background: isHighlighted ? '#E5F901' : '#1A1B2D', 
+      boxShadow: isHighlighted ? '0px 0px 8px 3px rgba(229, 249, 1, 0.3)' : 'none', 
+      border: isHighlighted ? 'none' : '1px solid grey',
+    }}
     transition={{ delay, duration: 1 }} // Adjust duration here
     style={{
       height: '100%',
       width: '100%',
-      border: '1px solid grey',
       flexGrow: 1,
       borderRadius: isStart ? '80px 0 0 80px' : isEnd ? '0 80px 80px 0' : '0',
     }}
   />
 );
+
 
 
 interface GridQuarterProps {
@@ -111,7 +123,13 @@ const GridColumn: React.FC<GridColumnProps> = ({ currentTime, isHour }) => {
 
   return (
     <div
-      style={{ display: 'flex', flexDirection: 'row', height: '100%', width: '80vw' }}
+      style={{ 
+        display: 'flex', 
+        flexDirection: 'row', 
+        height: '100%', 
+        width: '80vw',
+        filter: 'drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.3))'
+      }}
     >
       {quarters}
     </div>
@@ -122,19 +140,25 @@ export const App = () => {
   const currentTime = useCurrentTime()
 
   return (
-    <Flex justifyContent="center" alignItems="center" bg="background" h="100vh" w="100vw" p={48}>
-      <Grid
-        templateRows="repeat(2, 1fr)"
-        gap={44}
-        height="100%"
-      >
+    <Flex
+      justifyContent="center"
+      alignItems="center"
+      h="100vh"
+      w="100vw"
+      p={48}
+      css={css`
+        background: linear-gradient(-45deg, #5858C1, #3D62AA, #4D5ABA);
+        background-size: 400% 400%;
+        animation: ${gradient} 15s ease infinite;
+      `}
+    >
+      <Grid templateRows="repeat(2, 1fr)" gap={44} height="100%">
         <GridColumn currentTime={currentTime} isHour />
         <GridColumn currentTime={currentTime} />
       </Grid>
     </Flex>
-  )
-}
-
+  );
+};
 
 
 export default App

@@ -1,5 +1,13 @@
-# TimeBlocks
+# Time Blocks
  Visually representing time.
+
+![alt text](https://github.com/adriangalilea/time-blocks/blob/main/desk_sketch.jpg?raw=true)
+
+2 columns divided in 12.
+1 for hours, each time block, 1 hour.
+1 for minutes, each time block, 5 minutes.
+Grouped in quarters to visually differenciate.
+Might use distinguishing features(color/size/physical separation) to visually understand what is the hours column and what is the minutes one.
 
 # What options do exist to keep track of time?
 I've always been mesmerized by Hourglasses, there's no better time representation than that, you understand it the first time you see it... but can is it precise enough to be practical? I don't think so.
@@ -9,6 +17,8 @@ Another fun observation is jail day counting, I can not even find documentation 
 Then there's the analog watch/clock abstraction, that takes quite a while to read "intuitively", but once you learn it's very precise.
 
 Then there's the digital abstraction, 11:30, that is easy to understand conceptually once you are taught, and it'll never get easier on a concious level, but you have to read/interpret it, it's not intuitive enough to judge what time is it visually, there's just no cues, it's too complex.
+
+<img width="1658" alt="Chart" src="https://github.com/adriangalilea/time-blocks/assets/90320947/4c9abec7-5b8d-48de-9d54-a4e37711eef1">
 
 # Ideation
 I've always thought that there was space in the middle for something else. Something in between an Hourglass and a digital clock.
@@ -26,3 +36,7 @@ Bulova Computron - A watch that could be seen without moving your wrist(but the 
 
 # Surprise
 Convergence or cryptomnesia?
+
+# To-do
+- [ ] Finish write-up
+- [ ] proper blog post (what next, better explained)

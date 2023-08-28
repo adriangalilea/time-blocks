@@ -44,3 +44,4 @@ Convergence or cryptomnesia?
 - [ ] proper blog post (what next, better explained)
 - [ ] Explore creating one for https://apps.apple.com/us/app/widgy-widgets/id1524540481
 - [ ] Explroe creating one for https://watchy.sqfmi.com/
+- [ ] Explore creating one for https://pine64.com/product/pinetime-smartwatch-sealed/

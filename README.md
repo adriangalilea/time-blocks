@@ -42,3 +42,5 @@ Convergence or cryptomnesia?
 # To-do
 - [ ] Finish write-up
 - [ ] proper blog post (what next, better explained)
+- [ ] Explore creating one for https://apps.apple.com/us/app/widgy-widgets/id1524540481
+- [ ] Explroe creating one for https://watchy.sqfmi.com/

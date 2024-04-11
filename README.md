@@ -12,7 +12,8 @@ Might use distinguishing features(color/size/physical separation) to visually un
 # ⌛ What options do exist to keep track of time?
 I've always been mesmerized by Hourglasses, there's no better time representation than that, you understand it the first time you see it... but can is it precise enough to be practical? I don't think so.
 
-Another fun observation is jail day counting, I had no luck in Google or ChatGPT, like... why does this not have a name if it's so ubiquitous.
+~~Another fun observation is jail day counting, I had no luck in Google or ChatGPT, like... why does this not have a name if it's so ubiquitous.~~
+Tallying! thanks to @PieterDePauw for poiting it out in [#1](https://github.com/adriangalilea/time-blocks/issues/1)
 ![jail_day_counting](https://github.com/adriangalilea/time-blocks/assets/90320947/77003274-e8c3-4afa-aa77-1b4cd8be4eda)
 
 

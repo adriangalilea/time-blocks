@@ -1,7 +1,7 @@
 # Time Blocks
  Visually representing time.
 
-> **2026 — the names settled.** *Time blocks* is the pattern; **[Tempo](https://github.com/adriangalilea/tempo)** is the instrument that plays it. The pattern's home — this story told properly, a dated log of the pattern in the wild, and the instrument embedded live — is **[time-blocks.untitled.garden](https://time-blocks.untitled.garden)**. The 2023 build stays preserved at [time-blocks.vercel.app](https://time-blocks.vercel.app). Everything below this line is the original write-up, kept as it was written.
+> **2026 — the names settled.** *Time blocks* is the pattern; **[Tempo](https://github.com/adriangalilea/tempo)** is the instrument that plays it. The pattern's home — this story told properly, a dated log of the pattern in the wild, and the instrument embedded live — is **[time-blocks.untitled.garden](https://time-blocks.untitled.garden)**. The 2023 web build is retired; its source stays in this repo, and its successor lives on that page. Everything below this line is the original write-up, kept as it was written.
 
 ![alt text](https://github.com/adriangalilea/time-blocks/blob/main/desk_sketch.jpg?raw=true)
 
